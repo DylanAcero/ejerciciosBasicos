@@ -20,5 +20,16 @@ public class OperacionesController {
         return operacionesService.suma(valor1, valor2);
     }
 
+    @GetMapping("multiplicacion")
+    Integer multiplicacion(@RequestParam(name = "num1") Integer valor1,
+                  @RequestParam(name = "num2") Integer valor2){
+        return operacionesService.multiplicacion(valor1,valor2);
+    }
+    @GetMapping("resta")
+    Integer resta(@RequestParam(name = "num1") Integer valor1,
+                           @RequestParam(name = "num2") Integer valor2){
+        return operacionesService.resta(valor1,valor2);
+    }
+
 
 }
