@@ -43,6 +43,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!--░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░-->
+		<!--░░░░░░░░░░░ JSON ░░░░░░░░░░░░░░-->
+		<!--░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░-->
+		<!-- BSON -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>bson</artifactId>
+			<version>4.0.3</version>
+		</dependency>
+		<!--END BSON -->
+
+		<!-- JSON ORG -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		<!-- END JSON ORG-->
 	</dependencies>
 
 	<build>
